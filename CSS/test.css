@@ -1,0 +1,26 @@
+body {
+    background-image: url("Images/bg.gif");
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+canvas {
+    width: 40%;
+    position: absolute
+}
+
+#backbutton {
+    position: absolute;
+    padding: 1%;
+    top: 0;
+    left: 0;
+}

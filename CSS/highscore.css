@@ -1,0 +1,75 @@
+body {
+    background-image: url("Images/opçoesgif.gif");
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+table {
+    border-spacing: 1;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 6px;
+    overflow: hidden;
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 23.3%
+}
+
+th,
+td {
+    padding-left: 8px;
+}
+
+thead tr {
+    height: 60px;
+    background: #df5b33;
+    font-size: 16px;
+}
+
+tbody tr {
+    height: 48px;
+    border-bottom: 1px solid #f0e0d1;
+}
+
+.Back {
+    margin: 0;
+    position: absolute;
+    top: 93%;
+    left: 10%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+a:hover {
+    font-family: fantasy;
+    background-color: #db5517;
+    border: inset;
+    color: black;
+    padding: 20px 100px 20px 100px;
+    text-align: center;
+    text-decoration: none;
+    opacity: 0.7;
+    display: inline-block;
+    font-size: 40px;
+    margin: 8px 4px;
+    cursor: pointer;
+}
+
+a {
+    font-family: fantasy;
+    background-color: #19a1ca;
+    border: solid;
+    color: black;
+    padding: 20px 100px 20px 100px;
+    text-align: center;
+    text-decoration: none;
+    opacity: 0.7;
+    display: inline-block;
+    font-size: 40px;
+    margin: 8px 4px;
+    cursor: pointer;
+}

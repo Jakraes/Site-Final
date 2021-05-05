@@ -1,0 +1,68 @@
+body{
+    background-image:url("https://thumbs.gfycat.com/BigheartedEnragedKoi-size_restricted.gif");
+    background-size:cover;
+}
+
+a{font-family:fantasy;
+  background-color:#19a1ca; 
+  border:solid;
+  color: black;
+  padding: 20px 100px 20px 100px;
+  text-align: center;
+  text-decoration: none;
+  opacity:0.7;
+  display: inline-block;
+  font-size: 40px;
+  margin: 8px 4px;
+  cursor: pointer;
+}
+  a:hover{
+    font-family:fantasy;
+    background-color:#db5517; 
+    border:inset;
+    color: black;
+    padding: 20px 100px 20px 100px;
+    text-align: center;
+    text-decoration: none;
+    opacity:0.7;
+    display: inline-block;
+    font-size: 40px;
+    margin: 8px 4px;
+    cursor: pointer;
+}
+.Graphics{
+  margin: 0;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+}
+.Gameplay{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+}
+.Audio{
+  margin: 0;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+}
+.Back{
+  margin: 0;
+  position: absolute;
+  top:  93%;
+  left: 8%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+}

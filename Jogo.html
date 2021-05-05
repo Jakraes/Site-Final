@@ -1,0 +1,86 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Pokemon</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="CSS/test.css">
+</head>
+<body>
+    <div>
+        <input type="image" src="CSS/Images/home.png" onclick="window.location='startpage.html'" id ="backbutton">    
+    </div>
+
+    <div style="display:none">
+        <!-- Esta div serve para guardar imagens -->
+        <img src="PokemonStuff/character2.png" id = "character">
+        <img src="PokemonStuff/character2grass.png" id = "charactergrass">
+
+        <img src="Locations/MapaBack.png" id = "back">
+        <img src="Locations/MapaFront.png" id = "front">
+        <img src="Locations/labback.png" id = "labback">
+        <img src="Locations/labfront.png" id = "labfront">
+        <img src="Locations/centerback.png" id = "centerback">
+        <img src="Locations/centerfront.png" id = "centerfront">
+        <img src="Locations/shop.png" id = "shopback">
+        <img src="Locations/gymback.png" id = "gymback">
+        <img src="Locations/gymfront.png" id = "gymfront">
+        <img src="Locations/caveback.png" id = "caveback">
+        <img src="Locations/cavefront.png" id = "cavefront">
+
+        <img src="PokemonStuff/invisible.png" id = "invisible">
+
+        <img src="Pokemons/charmander.png" id = "charmander">
+        <img src="Pokemons/bulbasaur.png" id = "bulbasaur">
+        <img src="Pokemons/squirtle.png" id = "squirtle">
+        <img src="Pokemons/ratata.png" id = "ratata">
+        <img src="Pokemons/pidgey.png" id = "pidgey">
+        <img src="Pokemons/caterpie.png" id = "caterpie">
+        <img src="Pokemons/geodude.png" id = "geodude">
+        <img src="Pokemons/zubat.png" id = "zubat">
+        <img src="Pokemons/psyduck.png" id = "psyduck">
+        <img src="Pokemons/machop.png" id = "machop">
+        <img src="Pokemons/pikachu.png" id = "pikachu">
+
+
+        <img src="Pokemons/charmanderp.png" id = "charmanderp">
+        <img src="Pokemons/bulbasaurp.png" id = "bulbasaurp">
+        <img src="Pokemons/squirtlep.png" id = "squirtlep">
+        <img src="Pokemons/ratatap.png" id = "ratatap">
+        <img src="Pokemons/pidgeyp.png" id = "pidgeyp">
+        <img src="Pokemons/caterpiep.png" id = "caterpiep">
+        <img src="Pokemons/geodudep.png" id = "geodudep">
+        <img src="Pokemons/zubatp.png" id = "zubatp">
+        <img src="Pokemons/psyduckp.png" id = "psyduckp">
+        <img src="Pokemons/machopp.png" id = "machopp">
+        <img src="Pokemons/pikachup.png" id = "pikachup">
+
+        <img src="PokemonStuff/fight.png" id = "fightground">
+        <img src="PokemonStuff/fight!.png" id = "fighta">
+        <img src="PokemonStuff/win.png" id = "win">
+        <img src="PokemonStuff/lose.png" id = "lose">
+        <img src="PokemonStuff/lightg.png" id = "light">
+
+        <audio src="Audio/Punch.mp3" id="punch"></audio>
+        <audio src="Audio/fight.mp3" id="fightaudio"></audio>
+        <audio src="Audio/town.mp3" id="townaudio"></audio>
+        <audio src=""></audio>
+    </div>
+    <!-- Por alguma razão é necessário definir width e height no html para ter a proporções certas-->
+    <div class = "main">
+    <canvas id = "jogo" width = "600" height = "600"></canvas>
+    <canvas id = "characterc" width="600" height = "600"></canvas>
+    <canvas id = "frontmap" width="600" height = "600"></canvas> 
+    <canvas id = "fight" width="600" height = "600"></canvas>
+    <canvas id = "fight2" width="600" height = "600"></canvas>
+    <canvas id = "fight3" width="600" height = "600"></canvas>
+    <canvas id = "fight4" width="600" height = "600"></canvas>
+    <canvas id = "fight5" width="600" height = "600"></canvas>
+    <canvas id = "choice" width="600" height = "600"></canvas>  
+    <canvas id = "choice2" width="600" height = "600"></canvas> 
+    <canvas id = "cavelight" width="600" height = "600"></canvas> 
+    </div>
+    <script src="JS/test4.js"></script>
+</body>
+</html>

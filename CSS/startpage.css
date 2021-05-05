@@ -1,0 +1,79 @@
+body {
+  background-image: url("Images/opçoesgif.gif");
+  background-size: cover;
+}
+
+a {
+  font-family: fantasy;
+  background-color: #19a1ca;
+  border: solid;
+  color: black;
+  padding: 20px 100px 20px 100px;
+  text-align: center;
+  text-decoration: none;
+  opacity: 0.7;
+  display: inline-block;
+  font-size: 40px;
+  margin: 8px 4px;
+  cursor: pointer;
+}
+
+.pokedex:hover {
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+}
+
+a:hover {
+  font-family: fantasy;
+  background-color: #db5517;
+  border: inset;
+  color: black;
+  padding: 20px 100px 20px 100px;
+  text-align: center;
+  text-decoration: none;
+  opacity: 0.7;
+  display: inline-block;
+  font-size: 40px;
+  margin: 8px 4px;
+  cursor: pointer;
+}
+
+.pokedex {
+  margin: 0;
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  font-size: 20px;
+  margin: 4px 2px;
+
+}
+
+.newgame {
+  margin: 0;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+}
+
+.highscore {
+  margin: 0;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+}
+
+.Back {
+  margin: 0;
+  position: absolute;
+  top: 93%;
+  left: 10%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}

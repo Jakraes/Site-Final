@@ -1,0 +1,257 @@
+.pokemonpage{
+    display:grid;
+    grid-template-columns:auto auto ;
+    grid-template-rows:35% 5% auto auto auto auto auto;
+    grid-gap: 50px;
+    margin:auto;
+    width:auto;
+    background-image:url("https://www.xmple.com/wallpaper/stripes-grey-lines-streaks-white-1920x1080-c6-ffffff-d3d3d3-ffffff-d3d3d3-ffffff-d3d3d3-l6-47-47-47-47-47-188-a-30-f-1.svg");
+    background-size: cover;
+
+    
+
+        
+}
+.pokemonimage{
+    grid-area:1/1/span 1/span 2;
+    margin:1px;
+    margin:auto auto;
+}
+.title{
+    grid-area:2/1/span 1/span 2;
+    text-align: center;
+}
+.description {
+    grid-area:3/1/span 1/span 2;
+    text-align: center;
+}
+.height{
+    grid-area:4/1;
+    text-align: center;
+}
+.weight{
+    grid-area:4/2;
+    text-align: center;
+}
+.category{
+    grid-area:5/1 ;
+    text-align: center;
+}
+.abilities{
+    grid-area:5/2;
+    text-align: center;
+}
+.type{
+    grid-area:6/1;
+    text-align: center;
+}
+.gender{
+    grid-area:6/2;
+    text-align: center;
+}
+.weaknesses{
+    grid-area:7/1/span 1/span 2;
+    text-align: center;
+
+}
+
+.fire{
+    font-family:sans-serif;
+  background-color:orange; 
+  color: white;
+  padding: 10px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius:15px;
+}
+.grass{
+    font-family:sans-serif;
+    background-color:rgb(146, 224, 30); 
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius:15px;
+
+}
+.water{
+    font-family:sans-serif;
+    background-color:blue; 
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius:15px;
+}
+.normal{
+    font-family:sans-serif;
+    background-color:gray; 
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius:15px;
+
+}
+.steel{
+    font-family:sans-serif;
+    background-color:rgb(173, 173, 173); 
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius:15px;
+}
+.eletric{
+    font-family:sans-serif;
+    background-color:rgb(233, 219, 23); 
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius:15px;
+}
+.fighting{
+    font-family:sans-serif;
+    background-color:rgb(163, 71, 17); 
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius:15px;
+
+}
+.bug{
+    font-family:sans-serif;
+    background-color:rgb(98, 151, 18); 
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius:15px;
+}
+.poison{
+    font-family:sans-serif;
+    background-color:darkorchid; 
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius:15px;
+}
+.rock{
+    font-family:sans-serif;
+    background-color:rgb(133, 82, 23, 0.932); 
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius:15px;
+
+}
+.psychic{
+    font-family:sans-serif;
+    background-color:rgb(230, 120, 206); 
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius:15px;
+}
+.fairy{
+    font-family:sans-serif;
+    background-color:pink; 
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius:15px;
+
+}
+.flying{
+    font-family:sans-serif;
+    background-image:linear-gradient(0deg,rgb(153, 169, 179)50%, rgba(69, 180, 228, 0.932)50%);
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius:15px;
+}
+.ground{
+    font-family:sans-serif;
+    background-image:linear-gradient(0deg,rgb(133, 82, 23, 0.932)50%, rgb(233, 219, 23)50%);
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius:15px;
+}
+.ice{
+    font-family:sans-serif;
+    background-color:cyan; 
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius:15px;
+}
